@@ -1,0 +1,14 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 55px;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: lighter;
+  text-shadow: 2px 2px 2px black;
+  filter : opacity(100%);
+  margin-left: -10px;
+}
