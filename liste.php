@@ -20,11 +20,10 @@
 // on va enregistrer dans cette variable $resultats, le résultat de la requête, on lui dit fetch pour lui dire d'aller chercher nos informations définies par query juste au-dessus
 // desc=ordre décroissant ; si on met ORDER BY titre LIMIT 0,5 = cela va nous permettre de n'avoir que les cinq titres (0est le point de départ et 5 est l'incrémentation=c'est à dire le nombre de résultats affichés)
       $resultat = $requete->fetchAll();
-
     foreach ($resultat as $value) {
     echo
   '<p>titre : '.$value->titre.'</p><img src="./img/' .$value->image.'
-  "><p>contenu : '.$value->article.'</p><p>Créé le : '.$value->date.'</p><hr>';
+  "><p>contenu : '.$value->article.'</p><hr>';
   }
   ?>
   </div>

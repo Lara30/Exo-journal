@@ -18,18 +18,17 @@
     </header>
     <body>
       <form method="POST" action="script.php">
-        <input type="text" name="id" placeholder="ID à modifier"/>
+        <input type="text" name="ID" placeholder="ID à modifier"/>
         <h2>Titre de l'article</h2>
-          <input type="text" id="titre" name="titre" value=""/><br/>
+          <input type="text" name="titre" value=""/><br/>
         <h2>Image</h2>
-          <input type="file" id="image" name="image" value=""/><br/>
+          <input type="file" name="image" value=""/><br/>
         <h2>Le contenu de l'article</h2>
-          <textarea id="article" name="article" placeholder="" row="100" value=""></textarea>
-              <!--il manque la DATE DE CREATION  -->
-        <h2>Créé le </h2>
-          <input type="date" id="date" name="datecreation" value="">
-          <input type="submit" value="OK">
-      </form>
+          <textarea id="article" name="article" placeholder="" row="100" value=""></textarea><br/><br/>
 
+          <input type="submit" value="MODIFIER" action="modifier.php">
+          <input type="submit" value="SUPPRIMER">
+          <input type="submit" value="VALIDER">
+      </form>
     </body>
 </html>
